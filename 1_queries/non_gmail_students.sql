@@ -6,4 +6,5 @@ SELECT
 FROM
   students
 WHERE
-email NOT LIKE '%@gmail.com' AND phone IS NULL;
+  email NOT LIKE '%@gmail.com'
+  AND phone IS NULL;
